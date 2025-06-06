@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./ejercicio2.js" defer ></script>
+  <title>Ejercicio 2 JS</title>
+</head>
+<style>
+  .producto{
+    margin: 10px;
+  }
+  .producto button {
+    margin-left: 10px;
+  }
+  h1 {
+    text-align: center;
+  }
+  #nuevoProducto {
+    width: 200px;
+    padding: 5px;
+  }
+  #agregarProducto {
+    padding: 5px 10px;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  li {
+    margin: 5px 0;
+  }
+  li button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  li button:hover {
+    background-color: darkred;
+  }
+</style>
+<body>
+  <h1>Lista de compras</h1>
+
+  <input type="text" id="nuevoProducto" placeholder="Añadir producto">
+  <button id="agregarProducto">Agregar</button>
+
+  <ul id="listaCompra" >
+
+  </ul>
+</body>
+</html>
